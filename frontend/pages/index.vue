@@ -5,7 +5,7 @@
       <h2 class="subtitle">
         {{ subTitle }}
       </h2>
-      <button @click="getSomething">タスクsp取得</button>
+      <button @click="getSomething">タスク取得</button>
       <ul v-for="post in posts" :key="post.id">
         <li style="text-align: left">{{ post.title }}</li>
       </ul>
